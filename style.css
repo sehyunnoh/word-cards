@@ -83,6 +83,10 @@ body {
   max-width: 420px;
 }
 
+.card-area[hidden] {
+  display: none;
+}
+
 .card {
   width: 100%;
   min-height: 280px;
@@ -107,6 +111,11 @@ body {
   align-items: center;
   gap: 12px;
   width: 100%;
+}
+
+.card-front[hidden],
+.card-back[hidden] {
+  display: none;
 }
 
 .word {
@@ -188,6 +197,10 @@ body {
   align-items: center;
   justify-content: center;
   padding: 16px;
+}
+
+.settings-panel[hidden] {
+  display: none;
 }
 
 .settings-box {
