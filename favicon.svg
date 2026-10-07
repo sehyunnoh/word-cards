@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f86ff"/>
+      <stop offset="1" stop-color="#2f6fed"/>
+    </linearGradient>
+  </defs>
+  <!-- back card peeking out, suggests a stack of flashcards -->
+  <rect x="7" y="4" width="20" height="24" rx="5" fill="#2f6fed" opacity="0.35" transform="rotate(8 17 16)"/>
+  <!-- front card -->
+  <rect x="4" y="3" width="22" height="26" rx="5" fill="url(#g)"/>
+  <!-- folded corner, suggests flipping the card -->
+  <path d="M26 3 H21 a5 5 0 0 1 5 5 Z" fill="#ffffff" opacity="0.5"/>
+  <!-- letter -->
+  <text x="15" y="23" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+</svg>
