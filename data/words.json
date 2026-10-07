@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "tolerable-20261006",
+    "word": "tolerable",
+    "meaning": "참을 수 있는, 견딜 만한",
+    "examples": [
+      "The pain was tolerable, so she decided not to take any medicine.",
+      "Even on the hottest days, the heat in the shade was tolerable."
+    ],
+    "addedAt": "2026-10-06"
+  },
+  {
+    "id": "mortal-20261006",
+    "word": "mortal",
+    "meaning": "(언젠가 죽는) 인간인, 치명적인",
+    "examples": [
+      "All humans are mortal, no matter how powerful they seem.",
+      "He suffered a mortal wound in the battle."
+    ],
+    "addedAt": "2026-10-06"
+  },
+  {
+    "id": "merely-20261006",
+    "word": "merely",
+    "meaning": "단지, 그저",
+    "examples": [
+      "She merely wanted to help, not to take credit.",
+      "It was merely a misunderstanding between the two of them."
+    ],
+    "addedAt": "2026-10-06"
+  }
+]
