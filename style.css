@@ -149,10 +149,19 @@ body {
 }
 
 .examples li {
-  font-size: 14px;
-  color: var(--muted);
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   line-height: 1.4;
+}
+
+.example-en {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.example-ko {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 2px;
 }
 
 .controls {

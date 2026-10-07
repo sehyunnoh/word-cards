@@ -106,7 +106,14 @@ function render() {
   el.examplesList.innerHTML = "";
   (current.examples || []).forEach((ex) => {
     const li = document.createElement("li");
-    li.textContent = ex;
+    const en = document.createElement("div");
+    en.className = "example-en";
+    en.textContent = ex.en;
+    const ko = document.createElement("div");
+    ko.className = "example-ko";
+    ko.textContent = ex.ko;
+    li.appendChild(en);
+    li.appendChild(ko);
     el.examplesList.appendChild(li);
   });
 

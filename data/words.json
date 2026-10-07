@@ -4,8 +4,9 @@
     "word": "tolerable",
     "meaning": "참을 수 있는, 견딜 만한",
     "examples": [
-      "The pain was tolerable, so she decided not to take any medicine.",
-      "Even on the hottest days, the heat in the shade was tolerable."
+      { "en": "The pain was tolerable, so she decided not to take any medicine.", "ko": "통증이 참을 만해서 그녀는 약을 먹지 않기로 했다." },
+      { "en": "Even on the hottest days, the heat in the shade was tolerable.", "ko": "가장 더운 날에도 그늘의 더위는 견딜 만했다." },
+      { "en": "The hotel room was small but tolerable for a short stay.", "ko": "호텔 방은 작았지만 짧게 머물기엔 참을 만했다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -14,8 +15,9 @@
     "word": "mortal",
     "meaning": "(언젠가 죽는) 인간인, 치명적인",
     "examples": [
-      "All humans are mortal, no matter how powerful they seem.",
-      "He suffered a mortal wound in the battle."
+      { "en": "All humans are mortal, no matter how powerful they seem.", "ko": "아무리 강해 보여도 모든 인간은 언젠가 죽는다." },
+      { "en": "He suffered a mortal wound in the battle.", "ko": "그는 전투에서 치명적인 부상을 입었다." },
+      { "en": "Even great kings are mortal in the end.", "ko": "위대한 왕들도 결국은 죽을 운명이다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -24,8 +26,9 @@
     "word": "merely",
     "meaning": "단지, 그저",
     "examples": [
-      "She merely wanted to help, not to take credit.",
-      "It was merely a misunderstanding between the two of them."
+      { "en": "She merely wanted to help, not to take credit.", "ko": "그녀는 그저 돕고 싶었을 뿐, 공을 차지하려던 게 아니었다." },
+      { "en": "It was merely a misunderstanding between the two of them.", "ko": "그것은 단지 둘 사이의 오해였을 뿐이다." },
+      { "en": "He is merely a beginner, so don't expect perfection.", "ko": "그는 그저 초보자일 뿐이니 완벽함을 기대하지 마라." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -34,8 +37,9 @@
     "word": "aesthetic",
     "meaning": "미적인, 심미적인",
     "examples": [
-      "The museum's aesthetic appeal draws visitors from around the world.",
-      "She has a strong sense of aesthetic judgment when it comes to design."
+      { "en": "The museum's aesthetic appeal draws visitors from around the world.", "ko": "그 박물관의 미적 매력은 전 세계 관람객을 끌어들인다." },
+      { "en": "She has a strong sense of aesthetic judgment when it comes to design.", "ko": "그녀는 디자인에 관해 뛰어난 심미안을 가지고 있다." },
+      { "en": "The garden was redesigned for both function and aesthetic beauty.", "ko": "그 정원은 기능성과 미적 아름다움을 모두 고려해 재설계되었다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -44,8 +48,9 @@
     "word": "onerous",
     "meaning": "부담스러운, 힘겨운",
     "examples": [
-      "The new regulations impose onerous burdens on small businesses.",
-      "He found the paperwork onerous and time-consuming."
+      { "en": "The new regulations impose onerous burdens on small businesses.", "ko": "새 규제는 소규모 기업들에게 부담스러운 의무를 지운다." },
+      { "en": "He found the paperwork onerous and time-consuming.", "ko": "그는 그 서류 작업이 힘겹고 시간이 많이 든다고 느꼈다." },
+      { "en": "Caring for three children alone can be an onerous task.", "ko": "혼자 세 아이를 돌보는 것은 힘겨운 일일 수 있다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -54,8 +59,9 @@
     "word": "menace",
     "meaning": "위협, 위협적인 존재",
     "examples": [
-      "Pollution remains a growing menace to public health.",
-      "The storm was seen as a menace to coastal communities."
+      { "en": "Pollution remains a growing menace to public health.", "ko": "오염은 공중 보건에 점점 커지는 위협으로 남아 있다." },
+      { "en": "The storm was seen as a menace to coastal communities.", "ko": "그 폭풍은 해안 지역 사회에 위협으로 여겨졌다." },
+      { "en": "The escaped dog was seen as a menace to the neighborhood.", "ko": "탈출한 개는 동네에 위협적인 존재로 여겨졌다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -64,8 +70,9 @@
     "word": "battalions",
     "meaning": "대대(군대 단위), (비유적으로) 대규모 무리",
     "examples": [
-      "Several battalions were deployed to reinforce the front line.",
-      "Battalions of volunteers arrived to help after the disaster."
+      { "en": "Several battalions were deployed to reinforce the front line.", "ko": "여러 대대가 전선을 보강하기 위해 배치되었다." },
+      { "en": "Battalions of volunteers arrived to help after the disaster.", "ko": "재난 이후 수많은 자원봉사자 무리가 도우러 도착했다." },
+      { "en": "The general ordered two battalions to advance at dawn.", "ko": "장군은 새벽에 두 개 대대를 진격시키라고 명령했다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -74,8 +81,9 @@
     "word": "inadvertently",
     "meaning": "무심코, 의도치 않게",
     "examples": [
-      "She inadvertently deleted the file while cleaning up her desktop.",
-      "He inadvertently revealed the surprise party while talking to his sister."
+      { "en": "She inadvertently deleted the file while cleaning up her desktop.", "ko": "그녀는 바탕화면을 정리하다가 무심코 파일을 삭제했다." },
+      { "en": "He inadvertently revealed the surprise party while talking to his sister.", "ko": "그는 여동생과 이야기하다가 무심코 깜짝 파티를 누설했다." },
+      { "en": "I inadvertently left my phone on the train this morning.", "ko": "나는 오늘 아침 무심코 기차에 휴대폰을 두고 내렸다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -84,8 +92,9 @@
     "word": "frailty",
     "meaning": "허약함, 연약함, (인간의) 약점",
     "examples": [
-      "The illness exposed the frailty of his aging body.",
-      "The novel explores human frailty and the limits of willpower."
+      { "en": "The illness exposed the frailty of his aging body.", "ko": "그 병은 그의 노쇠한 몸의 허약함을 드러냈다." },
+      { "en": "The novel explores human frailty and the limits of willpower.", "ko": "그 소설은 인간의 나약함과 의지력의 한계를 탐구한다." },
+      { "en": "Her frailty after the surgery worried the whole family.", "ko": "수술 후 그녀의 쇠약함은 온 가족을 걱정시켰다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -94,8 +103,9 @@
     "word": "vital",
     "meaning": "필수적인, 매우 중요한",
     "examples": [
-      "Clean water is vital for survival.",
-      "Her leadership was vital to the project's success."
+      { "en": "Clean water is vital for survival.", "ko": "깨끗한 물은 생존에 필수적이다." },
+      { "en": "Her leadership was vital to the project's success.", "ko": "그녀의 리더십은 프로젝트 성공에 매우 중요했다." },
+      { "en": "Sleep is vital for both physical and mental health.", "ko": "수면은 신체적, 정신적 건강 모두에 필수적이다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -104,8 +114,9 @@
     "word": "lean",
     "meaning": "(군살 없이) 호리호리한, 기대다, 군더더기 없는",
     "examples": [
-      "The company adopted a lean approach to cut unnecessary costs.",
-      "He leaned against the wall while waiting for the bus."
+      { "en": "The company adopted a lean approach to cut unnecessary costs.", "ko": "그 회사는 불필요한 비용을 줄이기 위해 군더더기 없는 접근법을 채택했다." },
+      { "en": "He leaned against the wall while waiting for the bus.", "ko": "그는 버스를 기다리며 벽에 기대어 있었다." },
+      { "en": "Years of training gave the athlete a lean, muscular build.", "ko": "수년간의 훈련으로 그 선수는 호리호리하고 근육질인 몸을 갖게 되었다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -114,8 +125,9 @@
     "word": "devote",
     "meaning": "바치다, 헌신하다",
     "examples": [
-      "She devoted her life to teaching underprivileged children.",
-      "He devotes every weekend to volunteer work."
+      { "en": "She devoted her life to teaching underprivileged children.", "ko": "그녀는 소외된 아이들을 가르치는 데 평생을 바쳤다." },
+      { "en": "He devotes every weekend to volunteer work.", "ko": "그는 매주 주말을 봉사활동에 바친다." },
+      { "en": "The scientist devoted decades to researching rare diseases.", "ko": "그 과학자는 희귀 질병 연구에 수십 년을 바쳤다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -124,8 +136,9 @@
     "word": "notoriously",
     "meaning": "악명 높게, (부정적으로) 널리 알려질 정도로",
     "examples": [
-      "The exam is notoriously difficult for first-year students.",
-      "He is notoriously late to every meeting."
+      { "en": "The exam is notoriously difficult for first-year students.", "ko": "그 시험은 1학년 학생들에게 악명 높게 어렵다." },
+      { "en": "He is notoriously late to every meeting.", "ko": "그는 모든 회의에 늦기로 악명이 높다." },
+      { "en": "The mountain road is notoriously dangerous in winter.", "ko": "그 산길은 겨울철에 악명 높게 위험하다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -134,8 +147,9 @@
     "word": "volatile",
     "meaning": "변덕스러운, 불안정한",
     "examples": [
-      "The stock market has been extremely volatile this week.",
-      "Their relationship was volatile, full of sudden arguments."
+      { "en": "The stock market has been extremely volatile this week.", "ko": "이번 주 주식 시장은 매우 변동성이 컸다." },
+      { "en": "Their relationship was volatile, full of sudden arguments.", "ko": "그들의 관계는 불안정해서 갑작스러운 다툼이 잦았다." },
+      { "en": "The region remains politically volatile after the election.", "ko": "그 지역은 선거 이후에도 정치적으로 불안정한 상태다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -144,8 +158,9 @@
     "word": "practitioners",
     "meaning": "종사자들, 실무자들, (의료) 개업의",
     "examples": [
-      "Many medical practitioners recommend regular exercise.",
-      "The workshop was designed for experienced practitioners in the field."
+      { "en": "Many medical practitioners recommend regular exercise.", "ko": "많은 의료 종사자들은 규칙적인 운동을 권장한다." },
+      { "en": "The workshop was designed for experienced practitioners in the field.", "ko": "그 워크숍은 해당 분야의 숙련된 실무자들을 위해 마련되었다." },
+      { "en": "Only licensed practitioners are allowed to perform the procedure.", "ko": "면허를 가진 시술자만 그 시술을 할 수 있다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -154,8 +169,9 @@
     "word": "metaphor",
     "meaning": "은유, 비유",
     "examples": [
-      "Time is often described using the metaphor of a river.",
-      "The poem is built around an extended metaphor of light and darkness."
+      { "en": "Time is often described using the metaphor of a river.", "ko": "시간은 흔히 강이라는 은유로 묘사된다." },
+      { "en": "The poem is built around an extended metaphor of light and darkness.", "ko": "그 시는 빛과 어둠이라는 확장된 은유를 중심으로 구성되어 있다." },
+      { "en": "She used the metaphor of a garden to describe raising children.", "ko": "그녀는 아이를 키우는 것을 정원에 비유해서 설명했다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -164,8 +180,9 @@
     "word": "silver bullet",
     "meaning": "특효약, 만능 해결책",
     "examples": [
-      "There is no silver bullet for solving climate change.",
-      "Managers often look for a silver bullet to fix team productivity."
+      { "en": "There is no silver bullet for solving climate change.", "ko": "기후 변화를 해결할 만능 해결책은 없다." },
+      { "en": "Managers often look for a silver bullet to fix team productivity.", "ko": "관리자들은 종종 팀 생산성을 해결할 특효약을 찾으려 한다." },
+      { "en": "Exercise alone is not a silver bullet for weight loss.", "ko": "운동만으로는 체중 감량의 특효약이 되지 않는다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -174,8 +191,9 @@
     "word": "decay",
     "meaning": "부패(하다), 쇠퇴(하다)",
     "examples": [
-      "Tooth decay can be prevented with regular brushing.",
-      "The old building showed signs of decay and neglect."
+      { "en": "Tooth decay can be prevented with regular brushing.", "ko": "충치는 규칙적인 양치질로 예방할 수 있다." },
+      { "en": "The old building showed signs of decay and neglect.", "ko": "그 오래된 건물은 부패와 방치의 흔적을 보였다." },
+      { "en": "The empire's decay took centuries to unfold.", "ko": "그 제국의 쇠퇴는 수백 년에 걸쳐 일어났다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -184,8 +202,9 @@
     "word": "cumulative",
     "meaning": "누적된, 누적적인",
     "examples": [
-      "The cumulative effect of small mistakes can be disastrous.",
-      "Her cumulative GPA improved steadily over four years."
+      { "en": "The cumulative effect of small mistakes can be disastrous.", "ko": "작은 실수들의 누적 효과는 치명적일 수 있다." },
+      { "en": "Her cumulative GPA improved steadily over four years.", "ko": "그녀의 누적 평점은 4년 동안 꾸준히 올랐다." },
+      { "en": "The cumulative rainfall this month broke a ten-year record.", "ko": "이번 달 누적 강수량은 10년 기록을 깼다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -194,8 +213,9 @@
     "word": "altruistic",
     "meaning": "이타적인",
     "examples": [
-      "His altruistic nature led him to donate most of his savings.",
-      "Volunteering abroad was an altruistic act for many students."
+      { "en": "His altruistic nature led him to donate most of his savings.", "ko": "그의 이타적인 성격은 그가 저축의 대부분을 기부하게 만들었다." },
+      { "en": "Volunteering abroad was an altruistic act for many students.", "ko": "해외 봉사활동은 많은 학생들에게 이타적인 행동이었다." },
+      { "en": "The charity relies on altruistic donors to fund its programs.", "ko": "그 자선단체는 프로그램 운영 자금을 이타적인 기부자들에게 의존한다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -204,8 +224,9 @@
     "word": "deliberately",
     "meaning": "의도적으로, 고의로",
     "examples": [
-      "She deliberately avoided mentioning the accident.",
-      "He deliberately slowed down to let the others catch up."
+      { "en": "She deliberately avoided mentioning the accident.", "ko": "그녀는 그 사고를 언급하는 것을 의도적으로 피했다." },
+      { "en": "He deliberately slowed down to let the others catch up.", "ko": "그는 다른 사람들이 따라올 수 있도록 일부러 속도를 늦췄다." },
+      { "en": "The company deliberately delayed the announcement until after the holidays.", "ko": "그 회사는 휴일이 지날 때까지 발표를 고의로 미뤘다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -214,8 +235,9 @@
     "word": "counterintuitive",
     "meaning": "직관에 반하는",
     "examples": [
-      "It may seem counterintuitive, but spending more can sometimes save money.",
-      "The results of the experiment were counterintuitive to most scientists."
+      { "en": "It may seem counterintuitive, but spending more can sometimes save money.", "ko": "직관에 반하는 것처럼 보일 수 있지만, 더 쓰는 것이 때로는 돈을 절약해준다." },
+      { "en": "The results of the experiment were counterintuitive to most scientists.", "ko": "그 실험 결과는 대부분의 과학자들에게 직관에 반하는 것이었다." },
+      { "en": "It's counterintuitive, but slowing down can make you more productive.", "ko": "직관에 반하지만, 속도를 늦추는 것이 생산성을 높일 수 있다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -224,8 +246,9 @@
     "word": "archaeology",
     "meaning": "고고학",
     "examples": [
-      "She studied archaeology to learn about ancient civilizations.",
-      "The archaeology team uncovered pottery dating back 3,000 years."
+      { "en": "She studied archaeology to learn about ancient civilizations.", "ko": "그녀는 고대 문명을 배우기 위해 고고학을 공부했다." },
+      { "en": "The archaeology team uncovered pottery dating back 3,000 years.", "ko": "그 고고학 팀은 3천 년 전으로 거슬러 올라가는 도자기를 발굴했다." },
+      { "en": "Archaeology relies heavily on careful excavation and documentation.", "ko": "고고학은 세심한 발굴과 기록에 크게 의존한다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -234,8 +257,9 @@
     "word": "conventional",
     "meaning": "관습적인, 전통적인, 재래식의",
     "examples": [
-      "She rejected conventional wisdom and tried a new approach.",
-      "Conventional methods of farming are being replaced by technology."
+      { "en": "She rejected conventional wisdom and tried a new approach.", "ko": "그녀는 통념을 거부하고 새로운 접근법을 시도했다." },
+      { "en": "Conventional methods of farming are being replaced by technology.", "ko": "재래식 농법은 기술로 대체되고 있다." },
+      { "en": "He prefers conventional medicine over alternative treatments.", "ko": "그는 대체 치료보다 전통적인 의학을 선호한다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -244,8 +268,9 @@
     "word": "virtuous",
     "meaning": "도덕적인, 덕이 있는",
     "examples": [
-      "He led a virtuous life devoted to helping others.",
-      "The story praises virtuous behavior over selfish ambition."
+      { "en": "He led a virtuous life devoted to helping others.", "ko": "그는 남을 돕는 데 헌신한 도덕적인 삶을 살았다." },
+      { "en": "The story praises virtuous behavior over selfish ambition.", "ko": "그 이야기는 이기적인 야망보다 덕이 있는 행동을 칭송한다." },
+      { "en": "She was admired for being honest and virtuous.", "ko": "그녀는 정직하고 덕이 있다는 점에서 존경받았다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -254,8 +279,9 @@
     "word": "rapid",
     "meaning": "빠른, 급속한",
     "examples": [
-      "The city experienced rapid growth over the past decade.",
-      "Doctors were concerned about his rapid heartbeat."
+      { "en": "The city experienced rapid growth over the past decade.", "ko": "그 도시는 지난 10년간 급속한 성장을 경험했다." },
+      { "en": "Doctors were concerned about his rapid heartbeat.", "ko": "의사들은 그의 빠른 심박수를 우려했다." },
+      { "en": "The company made rapid progress after hiring new engineers.", "ko": "그 회사는 새 엔지니어들을 고용한 후 빠르게 발전했다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -264,8 +290,9 @@
     "word": "wince",
     "meaning": "움찔하다, 찡그리다",
     "examples": [
-      "She winced in pain as the nurse gave her the injection.",
-      "He winced at the sound of his own recorded voice."
+      { "en": "She winced in pain as the nurse gave her the injection.", "ko": "간호사가 주사를 놓자 그녀는 아파서 움찔했다." },
+      { "en": "He winced at the sound of his own recorded voice.", "ko": "그는 자신의 녹음된 목소리를 듣고 움찔했다." },
+      { "en": "I winced when I saw the size of the bill.", "ko": "나는 청구서 금액을 보고 움찔했다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -274,8 +301,9 @@
     "word": "traipsing",
     "meaning": "터벅터벅 걷다, 지쳐서 돌아다니다",
     "examples": [
-      "They spent the afternoon traipsing around the city in the rain.",
-      "I'm tired of traipsing from store to store looking for the right gift."
+      { "en": "They spent the afternoon traipsing around the city in the rain.", "ko": "그들은 비 속에서 오후 내내 도시를 터벅터벅 돌아다녔다." },
+      { "en": "I'm tired of traipsing from store to store looking for the right gift.", "ko": "나는 딱 맞는 선물을 찾아 이 가게 저 가게 돌아다니는 데 지쳤다." },
+      { "en": "The kids went traipsing through the muddy field after the storm.", "ko": "아이들은 폭풍이 지나간 후 진흙투성이 들판을 터벅터벅 걸어 다녔다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -284,8 +312,9 @@
     "word": "tangling",
     "meaning": "뒤엉키다, 얽히게 하다",
     "examples": [
-      "The kite string kept tangling in the wind.",
-      "Her hair was tangling in the wind during the hike."
+      { "en": "The kite string kept tangling in the wind.", "ko": "연줄이 바람에 계속 엉켰다." },
+      { "en": "Her hair was tangling in the wind during the hike.", "ko": "하이킹 중 그녀의 머리카락이 바람에 엉켰다." },
+      { "en": "The cables behind the desk were tangling into a messy knot.", "ko": "책상 뒤의 케이블들이 지저분하게 엉켜 있었다." }
     ],
     "addedAt": "2026-10-06"
   },
@@ -294,8 +323,9 @@
     "word": "crevices",
     "meaning": "(좁은) 틈, 균열",
     "examples": [
-      "Water seeped into the crevices of the old stone wall.",
-      "The climbers found small crevices to grip onto the cliff face."
+      { "en": "Water seeped into the crevices of the old stone wall.", "ko": "물이 오래된 돌담의 틈새로 스며들었다." },
+      { "en": "The climbers found small crevices to grip onto the cliff face.", "ko": "등반가들은 절벽 표면에서 붙잡을 작은 틈을 찾았다." },
+      { "en": "Tiny seeds had taken root in the crevices of the rock.", "ko": "작은 씨앗들이 바위 틈새에 뿌리를 내리고 있었다." }
     ],
     "addedAt": "2026-10-06"
   }
