@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Word Cards</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Word Cards</h1>
+    <button id="settingsBtn" class="icon-btn" title="설정" aria-label="설정">⚙</button>
+  </header>
+
+  <main id="app">
+    <div id="emptyState" class="empty-state" hidden>
+      <p>아직 등록된 단어가 없어요.</p>
+      <p class="hint">Claude Code에게 "이 단어 추가해줘"라고 알려주면 여기에 카드가 생겨요.</p>
+    </div>
+
+    <div id="cardArea" class="card-area" hidden>
+      <div id="card" class="card">
+        <div class="card-front">
+          <div id="wordText" class="word"></div>
+          <div class="flip-hint">탭해서 뜻 보기</div>
+        </div>
+        <div class="card-back" hidden>
+          <div id="meaningText" class="meaning"></div>
+          <ul id="examplesList" class="examples"></ul>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="nextBtn" class="btn">다음 카드 ▶</button>
+        <button id="deleteBtn" class="btn btn-danger">외웠어요, 삭제 🗑</button>
+      </div>
+      <div id="statusMsg" class="status-msg" aria-live="polite"></div>
+    </div>
+  </main>
+
+  <div id="settingsPanel" class="settings-panel" hidden>
+    <div class="settings-box">
+      <h2>설정</h2>
+      <p class="hint">
+        삭제 기능을 쓰려면 이 레포(<code>word-cards</code>)에만 쓰기 권한을 준
+        GitHub fine-grained Personal Access Token이 필요해요.<br />
+        토큰은 이 브라우저에만 저장되고 다른 곳으로 전송되지 않아요.
+      </p>
+      <input id="tokenInput" type="password" placeholder="github_pat_..." autocomplete="off" />
+      <div class="settings-actions">
+        <button id="saveTokenBtn" class="btn">저장</button>
+        <button id="clearTokenBtn" class="btn btn-danger">토큰 삭제</button>
+        <button id="closeSettingsBtn" class="btn btn-ghost">닫기</button>
+      </div>
+      <p id="tokenStatus" class="hint"></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
