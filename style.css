@@ -46,6 +46,12 @@ body {
   font-weight: 600;
 }
 
+.word-count {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--muted);
+}
+
 .icon-btn {
   background: none;
   border: none;

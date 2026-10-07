@@ -16,6 +16,7 @@ const el = {
   nextBtn: document.getElementById("nextBtn"),
   deleteBtn: document.getElementById("deleteBtn"),
   statusMsg: document.getElementById("statusMsg"),
+  wordCount: document.getElementById("wordCount"),
   settingsBtn: document.getElementById("settingsBtn"),
   settingsPanel: document.getElementById("settingsPanel"),
   tokenInput: document.getElementById("tokenInput"),
@@ -85,6 +86,8 @@ function showNextCard() {
 }
 
 function render() {
+  el.wordCount.textContent = `(${words.length})`;
+
   if (words.length === 0) {
     el.emptyState.hidden = false;
     el.cardArea.hidden = true;
