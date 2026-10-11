@@ -328,5 +328,49 @@
       { "en": "Tiny seeds had taken root in the crevices of the rock.", "ko": "작은 씨앗들이 바위 틈새에 뿌리를 내리고 있었다." }
     ],
     "addedAt": "2026-10-06"
+  },
+  {
+    "id": "complacent-20261011",
+    "word": "complacent",
+    "meaning": "현실에 안주하는, 자만하는",
+    "examples": [
+      { "en": "We can't afford to be complacent just because we won last year.", "ko": "작년에 이겼다고 해서 안주할 여유는 없다." },
+      { "en": "The company grew complacent and lost its market share.", "ko": "그 회사는 안주하다가 시장 점유율을 잃었다." },
+      { "en": "Success made him complacent about his training.", "ko": "성공은 그를 훈련에 소홀하게 만들었다." }
+    ],
+    "addedAt": "2026-10-11"
+  },
+  {
+    "id": "pitchforks-20261011",
+    "word": "pitchforks",
+    "meaning": "(건초용) 쇠스랑, 갈퀴",
+    "examples": [
+      { "en": "The angry villagers marched with torches and pitchforks.", "ko": "화난 마을 사람들이 횃불과 쇠스랑을 들고 행진했다." },
+      { "en": "The farmers used pitchforks to toss hay into the barn.", "ko": "농부들은 쇠스랑으로 건초를 헛간에 던져 넣었다." },
+      { "en": "Online, people grabbed their virtual pitchforks and demanded an apology.", "ko": "온라인에서 사람들은 가상의 쇠스랑을 들고 사과를 요구했다." }
+    ],
+    "addedAt": "2026-10-11"
+  },
+  {
+    "id": "luddites-20261011",
+    "word": "luddites",
+    "meaning": "러다이트, 신기술 반대자",
+    "examples": [
+      { "en": "Some critics called them Luddites for resisting the new software.", "ko": "일부 비평가들은 새 소프트웨어에 반대하는 그들을 러다이트라고 불렀다." },
+      { "en": "The original Luddites destroyed machines they believed threatened their jobs.", "ko": "원조 러다이트들은 일자리를 위협한다고 믿은 기계를 부수었다." },
+      { "en": "Don't be such Luddites; give the new system a chance.", "ko": "그렇게 신기술을 거부하지 말고 새 시스템에 기회를 줘 봐라." }
+    ],
+    "addedAt": "2026-10-11"
+  },
+  {
+    "id": "reigning-20261011",
+    "word": "reigning",
+    "meaning": "현재 군림하는, 현 (챔피언 등)",
+    "examples": [
+      { "en": "The reigning champion will defend her title tomorrow.", "ko": "현 챔피언이 내일 타이틀을 방어한다." },
+      { "en": "The reigning monarch addressed the nation on television.", "ko": "현 군주가 텔레비전으로 국민에게 연설했다." },
+      { "en": "They beat the reigning world champions in the final.", "ko": "그들은 결승에서 현 세계 챔피언을 꺾었다." }
+    ],
+    "addedAt": "2026-10-11"
   }
 ]
