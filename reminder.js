@@ -87,6 +87,7 @@ async function registerWithServer(subscription) {
     tz: Intl.DateTimeFormat().resolvedOptions().timeZone,
     date: todayKey(),
     done: isTodayDone(),
+    app: "word-cards",
   });
 }
 
