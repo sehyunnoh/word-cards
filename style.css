@@ -251,3 +251,26 @@ body {
   display: flex;
   gap: 8px;
 }
+
+.daily-badge {
+  margin-left: auto;
+  margin-right: 12px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.daily-badge.done {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.settings-box h3 {
+  font-size: 15px;
+  margin: 16px 0 8px;
+}
+
+.settings-box hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 16px 0 0;
+}

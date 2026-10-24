@@ -24,6 +24,9 @@ const el = {
   clearTokenBtn: document.getElementById("clearTokenBtn"),
   closeSettingsBtn: document.getElementById("closeSettingsBtn"),
   tokenStatus: document.getElementById("tokenStatus"),
+  dailyBadge: document.getElementById("dailyBadge"),
+  reminderBtn: document.getElementById("reminderBtn"),
+  reminderStatus: document.getElementById("reminderStatus"),
 };
 
 let words = [];
@@ -127,7 +130,43 @@ function setStatus(msg) {
 
 function toggleFlip() {
   flipped = !flipped;
+  if (flipped && currentIndex !== -1) {
+    if (recordReview(words[currentIndex].id)) setStatus("오늘 학습 완료! 🎉");
+    renderDaily();
+  }
   render();
+}
+
+function renderDaily() {
+  const n = reviewedToday();
+  el.dailyBadge.textContent = isTodayDone() ? "오늘 ✓" : `오늘 ${n}/${DAILY_GOAL}`;
+  el.dailyBadge.classList.toggle("done", isTodayDone());
+}
+
+const REMINDER_MESSAGES = {
+  granted: "알림이 켜져 있어요. 오늘 학습을 마치면 알림이 멈춰요.",
+  denied: "브라우저에서 알림이 차단되어 있어요. 사이트 설정에서 허용해주세요.",
+  default: "알림 권한이 필요해요.",
+  unsupported: "이 브라우저는 푸시 알림을 지원하지 않아요. (iOS는 홈 화면에 추가 후 사용)",
+  error: "알림을 켜지 못했어요. 잠시 후 다시 시도해주세요.",
+};
+
+function renderReminder(message) {
+  const on = reminderEnabled();
+  el.reminderBtn.textContent = on ? "알림 끄기" : "알림 켜기";
+  el.reminderStatus.textContent = message || (on ? REMINDER_MESSAGES.granted : "");
+}
+
+async function toggleReminder() {
+  if (reminderEnabled()) {
+    await disableReminder();
+    renderReminder("알림을 껐어요.");
+    return;
+  }
+  el.reminderBtn.disabled = true;
+  const result = await enableReminder();
+  el.reminderBtn.disabled = false;
+  renderReminder(REMINDER_MESSAGES[result]);
 }
 
 async function deleteCurrentWord() {
@@ -178,6 +217,7 @@ async function deleteCurrentWord() {
 function openSettings() {
   el.tokenInput.value = getToken();
   el.tokenStatus.textContent = getToken() ? "토큰이 저장되어 있어요." : "저장된 토큰이 없어요.";
+  renderReminder();
   el.settingsPanel.hidden = false;
 }
 
@@ -188,6 +228,7 @@ function closeSettings() {
 el.card.addEventListener("click", toggleFlip);
 el.nextBtn.addEventListener("click", showNextCard);
 el.deleteBtn.addEventListener("click", deleteCurrentWord);
+el.reminderBtn.addEventListener("click", toggleReminder);
 el.settingsBtn.addEventListener("click", openSettings);
 el.closeSettingsBtn.addEventListener("click", closeSettings);
 
@@ -228,4 +269,6 @@ el.cardArea.addEventListener("touchend", (e) => {
   }
 });
 
+renderDaily();
+refreshReminder();
 loadWords();

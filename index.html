@@ -10,6 +10,7 @@
 <body>
   <header class="topbar">
     <h1>Word Cards <span id="wordCount" class="word-count"></span></h1>
+    <span id="dailyBadge" class="daily-badge" aria-live="polite"></span>
     <button id="settingsBtn" class="icon-btn" title="설정" aria-label="설정">⚙</button>
   </header>
 
@@ -42,6 +43,14 @@
   <div id="settingsPanel" class="settings-panel" hidden>
     <div class="settings-box">
       <h2>설정</h2>
+      <h3>매일 학습 알림</h3>
+      <p class="hint">
+        하루에 카드 5장을 넘기면 오늘 학습이 완료돼요. 완료하지 못하면 저녁 6시부터 10시 전까지 1시간마다 알림을 보내요.
+      </p>
+      <button id="reminderBtn" class="btn">알림 켜기</button>
+      <p id="reminderStatus" class="hint"></p>
+      <hr />
+      <h3>GitHub 토큰</h3>
       <p class="hint">
         삭제 기능을 쓰려면 이 레포(<code>word-cards</code>)에만 쓰기 권한을 준
         GitHub fine-grained Personal Access Token이 필요해요.<br />
@@ -57,6 +66,7 @@
     </div>
   </div>
 
+  <script src="reminder.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
