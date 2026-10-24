@@ -12,7 +12,7 @@ const token =
     }
   })();
 if (!token) {
-  console.error("ADMIN_TOKEN 환경변수 또ток .admin-token 파일이 필요해요.");
+  console.error("ADMIN_TOKEN 환경변수 또는 .admin-token 파일이 필요해요.");
   process.exit(1);
 }
 
